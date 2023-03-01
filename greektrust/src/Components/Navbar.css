@@ -1,5 +1,5 @@
 .Navbar_upper {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -19,4 +19,15 @@
   font-size: 15px;
   text-decoration: none;
   color: black;
+}
+.Clothes {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+.SearchInput {
+  margin-top: 20px;
 }

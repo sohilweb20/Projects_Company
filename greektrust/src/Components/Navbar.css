@@ -1,0 +1,22 @@
+.Navbar_upper {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgba(250, 235, 215, 0.313);
+  /* color: red; */
+}
+.Navbar_lower {
+  gap: 10%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar_lower > a,
+.Navbar_upper > a {
+  /* border: 1px solid red; */
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}

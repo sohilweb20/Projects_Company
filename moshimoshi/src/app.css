@@ -1,0 +1,146 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 154px;
+  font-weight: 700;
+  color: #222020;
+}
+
+.navbar-seaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper .logo-text {
+  padding-left: 10px;
+}
+
+.logo-wrapper .logo-icon {
+  width: 28%;
+  height: auto;
+}
+
+.social-media-handles ul {
+  padding: 10px 0;
+  display: flex;
+}
+
+.social-media-handles ul li {
+  padding: 0 10px;
+}
+
+.social-media-handles ul li a {
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Banner */
+.banner-content {
+  display: flex;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.banner-content h1 {
+  position: relative;
+  z-index: 2;
+  padding-top: 178px;
+}
+.banner-circle {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  width: 50%;
+  z-index: 1;
+}
+
+.banner-star {
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+
+.profile-figure {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  z-index: 3;
+  height: 420px;
+}
+
+.banner-nav {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translate(50%, -50%) rotateZ(90deg);
+  display: flex;
+  z-index: 5;
+}
+
+.banner-nav li a {
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+/* services */
+
+.service-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.services {
+  padding: 30px;
+}
+.services .head-section {
+  padding-bottom: 20px;
+}
+.services h2 {
+  padding-bottom: 50px;
+}
+
+.services .features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.services .features li {
+  padding: 30px 42px;
+}
+
+.services .features li span {
+  padding: 5px;
+}
+
+.services .features .feature-two {
+  background-color: #d7af09;
+}
+
+.services .features .feature-three {
+  background-color: #c9a409;
+}
+
+.services .features .feature-four {
+  background-color: #c9a409;
+}
+
+.services .features .feature-five {
+  background-color: #e1b706;
+}
+
+.service-one {
+  background-color: #ffd318;
+}

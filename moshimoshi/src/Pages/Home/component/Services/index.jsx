@@ -1,11 +1,14 @@
+import ClubLogo from "../../../../components/ClubLogo";
 import DollorEuro from "../../../../components/DollorEuro";
+import WalletLogo from "../../../../components/WalletLogo";
 
 const Services = () => {
   return (
     <div className="service-section">
       <div className="services service-one">
         <div className="head-section">
-          Logo
+          <WalletLogo />
+
           <span>skyWallet</span>
         </div>
         <h2>Your everyday crypto wallet</h2>
@@ -17,25 +20,25 @@ const Services = () => {
           </li>
           <li className="feature-three">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>One place for all your Web3 possessions</span>
           </li>
           <li className="feature-four">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>Simple and secure</span>
           </li>
           <li className="feature-five">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>Works everywhere</span>
           </li>
           <li></li>
         </ul>
       </div>
       <div className="services service-one">
         <div className="head-section">
-          Logo
-          <span>skyWallet</span>
+          <ClubLogo />
+          <span>skyClub</span>
         </div>
-        <h2>Your everyday crypto wallet</h2>
+        <h2>Exclusive, for you and your community</h2>
         <ul className="features">
           <li></li>
           <li className="feature-two">
@@ -44,15 +47,15 @@ const Services = () => {
           </li>
           <li className="feature-three">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>One place for all your Web3 possessions</span>
           </li>
           <li className="feature-four">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>Simple and secure</span>
           </li>
           <li className="feature-five">
             <DollorEuro />
-            <span>Use across any app and currency</span>
+            <span>Works everywhere</span>
           </li>
           <li></li>
         </ul>

@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-size: 154px;
+  font-size: 160px;
   font-weight: 700;
   color: #222020;
 }
@@ -57,11 +57,12 @@ h1 {
   position: relative;
   z-index: 2;
   padding-top: 178px;
+  line-height: 149.67px;
 }
 .banner-circle {
   position: absolute;
   top: 0;
-  right: 70px;
+  right: 140px;
   width: 50%;
   z-index: 1;
 }
@@ -69,7 +70,8 @@ h1 {
 .banner-star {
   position: absolute;
   top: 200px;
-  right: 0;
+  right: 50px;
+  /* left: 20px; */
 }
 
 .profile-figure {
@@ -87,6 +89,11 @@ h1 {
   transform: translate(50%, -50%) rotateZ(90deg);
   display: flex;
   z-index: 5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .banner-nav li a {
@@ -107,9 +114,22 @@ h1 {
 }
 .services .head-section {
   padding-bottom: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.head-section span {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-weight: 400;
 }
 .services h2 {
   padding-bottom: 50px;
+  font-family: Georama;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
 }
 
 .services .features {
@@ -127,18 +147,26 @@ h1 {
 
 .services .features .feature-two {
   background-color: #d7af09;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .services .features .feature-three {
   background-color: #c9a409;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .services .features .feature-four {
   background-color: #c9a409;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .services .features .feature-five {
   background-color: #e1b706;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .service-one {

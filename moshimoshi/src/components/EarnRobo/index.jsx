@@ -4,8 +4,8 @@ const EarnRoboLogo = () => {
   return (
     <svg
       className="Earn-Robo-Logo"
-      width={935}
-      height={1064}
+      width={600}
+      height={750}
       viewBox="0 0 935 1064"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

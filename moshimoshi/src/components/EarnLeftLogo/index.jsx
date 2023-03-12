@@ -1,8 +1,8 @@
 const EarcnLeftLogo = () => {
   return (
     <svg
-    className="Earn-Left-Logo"
-      width={1814}
+      className="Earn-Left-Logo"
+      width={1500}
       height={1598}
       viewBox="0 0 1814 1598"
       fill="none"

@@ -92,6 +92,13 @@ h2 {
   z-index: 3;
   height: 420px;
 }
+.kite-logo {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  z-index: 3;
+  height: 700px;
+}
 
 .banner-nav {
   position: absolute;
@@ -110,6 +117,15 @@ h2 {
 .banner-nav li a {
   padding: 0 10px;
   text-decoration: none;
+}
+.wire-one {
+  position: absolute;
+  bottom: 0;
+  top: 500px;
+  right: 0px;
+  left: 0px;
+  z-index: 5;
+  height: 400px;
 }
 
 /* services */
@@ -159,6 +175,9 @@ h2 {
 .services .features li span {
   padding: 5px;
 }
+.service-one .skywallet {
+  color: #000000;
+}
 
 .services .features .feature-two {
   background-color: #d7af09;
@@ -194,14 +213,14 @@ h2 {
 /* Earn section */
 
 .text-Content {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  /* border: 1px solid red; */
+  margin-top: 200px;
+  margin-bottom: 450px;
 }
 .Earn-section {
-  border: 1px solid red;
+  border: 1px solid black;
   background-color: #222020;
 }
+
 .Earn-section .Earn-content h3 {
   /* border: 1px solid blue; */
   font-family: "Georama";
@@ -235,6 +254,26 @@ h2 {
   /* padding-left: 400px; */
   text-align: center;
   color: #ffd318;
+  border-bottom: 500px;
+}
+
+.Earn-Left-Logo {
+  position: absolute;
+  top: 1250px;
+  left: 0;
+  border-bottom: 200px;
+}
+.Earn-Right-Logo {
+  position: absolute;
+  top: 1200px;
+  right: 0;
+}
+.Earn-Robo-Logo {
+  position: absolute;
+  top: 1600px;
+  right: 140px;
+  width: 60%;
+  z-index: 1;
 }
 
 /* .Earn-section {
@@ -264,7 +303,6 @@ h2 {
   width: 100%;
 }
 .community-content .community-text h2 + p {
-  /* border: 1px solid red; */
   padding-bottom: 20px;
 }
 .community-content .community-text p {
@@ -279,4 +317,138 @@ h2 {
   z-index: 10;
   right: 150px;
   bottom: 50px;
+}
+
+/* organization */
+
+.organization-content {
+  /* border: 1px solid red; */
+  background-color: #fed136;
+}
+.organization-content > h2 {
+  text-align: center;
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100.5%;
+  padding-top: 30px;
+}
+.investors {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100.5%;
+  text-transform: capitalize;
+  color: #262626;
+  text-align: center;
+}
+.organization-content .organization-border-ciecles {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.inside-boxes {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.inside-boxes .inside-boxes2 {
+  width: 253px;
+  height: 271px;
+  left: 449px;
+  top: 4603px;
+  background: #bc53df;
+  border-radius: 0px 0px 126.5px 126.5px;
+  margin-top: -270px;
+}
+.inside-boxes .inside-boxes3 {
+  width: 253px;
+  height: 120.6px;
+  left: 449px;
+  top: 4603px;
+  background-color: #252bb5;
+  border-radius: 0px 0px 126.5px 126.5px;
+  margin-top: -100px;
+}
+.inside-boxes3 span,
+.inside-boxes2 span {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.inside-boxes .inside-boxes1 {
+  width: 253px;
+  height: 412px;
+  left: 447px;
+  top: 4462px;
+  /* border: 1px solid red; */
+  background: #ffffff;
+  border-radius: 126.5px;
+  /* text-align: center; */
+}
+
+/* metasky  */
+.metasky {
+  background-color: #000000;
+  padding-bottom: 80px;
+}
+.metasky-context h2 {
+  padding-top: 50px;
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100.5%;
+  text-transform: capitalize;
+  color: #ffd318;
+}
+.avatar-square {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+}
+.avatar-square h6 {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100.5%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.avatar-square p {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100.5%;
+  text-transform: capitalize;
+  color: #ffffff;
+  /* border: 1px solid red; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.avatar-square div {
+  border: 1px solid white;
+  padding: 22px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.triangle-logo {
+  margin-top: 25px;
+}
+.image-men {
+  background-color: #bc53df;
+  /* #252bb5 93.23%; */
 }

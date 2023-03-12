@@ -1,7 +1,9 @@
 import React from "react";
-import { BsDiscord, BsInstagram } from "react-icons/bs";
-import { IoLogoTwitter } from "react-icons/io";
+
+import Discord from "../Discord";
+import InstaGram from "../Instagram";
 import Logo from "../Logo";
+import Twitter from "../Twitter";
 
 const Header = () => {
   return (
@@ -16,17 +18,17 @@ const Header = () => {
             <ul>
               <li>
                 <a href="/">
-                  <BsDiscord size={"25px"} />
+                  <Discord />
                 </a>
               </li>
               <li>
                 <a href="/">
-                  <IoLogoTwitter size={"25px"} />
+                  <Twitter />
                 </a>
               </li>
               <li>
                 <a href="/">
-                  <BsInstagram size={"22px"} />
+                  <InstaGram />
                 </a>
               </li>
             </ul>

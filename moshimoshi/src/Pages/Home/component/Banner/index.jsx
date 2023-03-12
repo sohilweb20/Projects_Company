@@ -1,6 +1,8 @@
 import Circle from "../../../../components/Circle";
 import Stars from "../../../../components/Stars";
 import ProfileFigure from "../../../../components/ProfileFigure";
+import KiteLogo from "../../../../components/KiteLogo";
+import Wireone from "../../../../components/Wireone";
 
 const Banner = () => {
   return (
@@ -11,6 +13,8 @@ const Banner = () => {
           <Circle />
           <Stars />
           <ProfileFigure />
+          <KiteLogo />
+          {/* <Wireone /> */}
           <ul className="banner-nav">
             <li>
               <a href="/">Skyclub</a>

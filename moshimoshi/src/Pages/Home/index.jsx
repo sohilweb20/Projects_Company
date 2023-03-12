@@ -5,6 +5,7 @@ import Earn from "./component/Earn";
 import MetaSkyTeam from "./component/MetaSkyTeam";
 import Organization from "./component/Organization";
 import Services from "./component/Services";
+import Web3 from "./component/Web3";
 // import Web3 from "./component/Web3";
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
       <Community />
       <Organization />
       <MetaSkyTeam />
-      {/* <Web3 /> */}
+      <Web3 />
     </div>
   );
 };

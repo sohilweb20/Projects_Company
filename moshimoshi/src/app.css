@@ -19,6 +19,16 @@ h2 {
   color: #000000;
 }
 
+button {
+  padding: 40px 80px;
+  border-radius: 60px;
+  color: #151414;
+  text-transform: uppercase;
+  font-size: 34px;
+  background-color: white;
+  cursor: pointer;
+}
+
 .navbar-seaction {
   display: flex;
   justify-content: space-between;
@@ -336,7 +346,6 @@ h2 {
 
 .organization-content {
   /* border: 1px solid red; */
-  background-color: #fed136;
 }
 .organization-content > h2 {
   text-align: center;
@@ -358,10 +367,12 @@ h2 {
   text-align: center;
   margin-top: 25px;
 }
-/* .headings-boxes {
-  border: 1px solid red;
-  margin-top: 20px;
-} */
+.organization-section .headings-boxes {
+  padding: 10px;
+}
+.organization-section .middle-thumb {
+  padding: 15px;
+}
 .investor {
   font-family: "Georama";
   font-style: normal;
@@ -378,7 +389,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 50px;
@@ -396,6 +407,10 @@ h2 {
   background: #bc53df;
   border-radius: 0px 0px 126.5px 126.5px;
   margin-top: -270px;
+}
+.inside-boxes .percent {
+  display: inline-block;
+  padding: 15px;
 }
 .inside-boxes .inside-boxes3 {
   width: 253px;
@@ -424,10 +439,15 @@ h2 {
 }
 
 /* metasky  */
-.metasky {
+.metasky-section {
   background-color: #000000;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
 }
+
+.image-container {
+  position: relative;
+}
+
 .metasky-context h2 {
   padding-top: 50px;
   font-family: "Georama";
@@ -438,15 +458,24 @@ h2 {
   text-transform: capitalize;
   color: #ffd318;
 }
-.avatar-square {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.metasky-section .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
   color: #ffffff;
-  padding-top: 50px;
   text-align: center;
+  z-index: 1;
+  position: relative;
 }
-.avatar-square h6 {
+.metasky-section .list li {
+  border: 1px solid white;
+  background-color: #222020;
+  border-radius: 10px;
+}
+.metasky-section h2 {
+  margin-bottom: 70px;
+}
+.metasky-section .list h6 {
   font-family: "Georama";
   font-style: normal;
   font-weight: 700;
@@ -456,7 +485,7 @@ h2 {
   color: #ffffff;
 }
 
-.avatar-square p {
+.metasky-section .list p {
   font-family: "Georama";
   font-style: normal;
   font-weight: 400;
@@ -468,18 +497,52 @@ h2 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.avatar-square div {
-  border: 1px solid white;
-  padding: 22px;
-  margin-bottom: 25px;
-  margin-left: 10px;
-  border-radius: 10px;
+
+.metasky-section .list .list-content {
+  padding: 10px;
 }
+
+.metasky-section .list .list-content svg {
+  width: 100%;
+}
+
+.metasky-section .list .list-content svg {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 .triangle-logo {
   margin-top: 25px;
 }
 .image-men {
   background-color: burlywood;
+}
+
+.organization-section {
+  background-color: #fed136;
+}
+
+.image-box {
+  position: absolute;
+  top: 0;
+  height: 500px;
+  left: -50px;
+  right: -30px;
+  border: 1px solid #e4cfcf;
+  border-radius: 10px;
+}
+
+.image-team-bg {
+  position: absolute;
+  left: 20px;
+  top: -68px;
+  width: 83%;
+  padding-bottom: 200px;
+}
+.metasky-slider-section {
+  position: relative;
+  z-index: 1;
 }
 /* .image-men {
   background-color: #220ed6; */
@@ -487,3 +550,39 @@ h2 {
 /* .image-men {
   background-color: url(../public//assets//images//Boy-bg.png);
 } */
+
+.enquiry {
+  padding-top: 200px;
+}
+
+.enquiry h2 {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.enquiry .action {
+  display: flex;
+  justify-content: center;
+}
+
+.enquiry button {
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+.enquiry button.yellow {
+  background-color: yellow;
+  color: black;
+  border: 0px solid yellow;
+}
+
+.enquiry .image-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.enquiry .image-sec img {
+  width: 50%;
+}

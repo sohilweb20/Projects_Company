@@ -13,6 +13,12 @@ h1 {
   color: #222020;
 }
 
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+}
+
 .navbar-seaction {
   display: flex;
   justify-content: space-between;
@@ -62,6 +68,7 @@ h1 {
   z-index: 2;
   padding-top: 178px;
   line-height: 149.67px;
+  /* border: 1px solid red; */
 }
 .banner-circle {
   position: absolute;
@@ -185,8 +192,15 @@ h1 {
 }
 
 /* Earn section */
+
+.text-Content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* border: 1px solid red; */
+}
 .Earn-section {
   border: 1px solid red;
+  background-color: #222020;
 }
 .Earn-section .Earn-content h3 {
   /* border: 1px solid blue; */
@@ -197,7 +211,7 @@ h1 {
   line-height: 97.19%;
   text-transform: uppercase;
   color: #ffd318;
-  padding-left: 250px;
+  text-align: center;
 }
 .Earn-section .Earn-content h4 {
   font-family: "Georama";
@@ -207,7 +221,8 @@ h1 {
   line-height: 97.19%;
   text-transform: uppercase;
   color: red;
-  padding-left: 400px;
+  text-align: center;
+  color: #ffffff;
 }
 .Earn-section .Earn-content h5 {
   font-family: "Georama";
@@ -217,93 +232,51 @@ h1 {
   line-height: 97.19%;
   padding-top: 20px;
   text-transform: uppercase;
-  padding-left: 400px;
+  /* padding-left: 400px; */
+  text-align: center;
   color: #ffd318;
 }
 
 /* .Earn-section {
-  border: 1px solid red;
-  /* padding-bottom: 100px; */
-/* position: absolute;
-} */
-/* .Earn-section.Earn-content {
-  display: flex;
+ 
+ 
+ 
+/* Community */
+.community {
   position: relative;
-  width: 100%;
-  background-color: #1c1b1b;
-} */
-/* .Earn-Left-Logo {
+  /* border: 1px solid red; */
+  padding-top: 200px;
+  padding-bottom: 320px;
+}
+.community-content {
+  width: 40%;
+}
+
+.community-content h2 {
+  padding-bottom: 20px;
+}
+
+.community-logo {
   position: absolute;
-  top: 0px;
+  bottom: -800px;
   left: 0;
-  z-index: 1;
-} */
-/* .Earn-Right-Logo {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 1;
-  width: 50%;
-  background-color: #1c1b1b;
-} */
-/* .Earn-section .Earn-content h3 {
-  border: 1px solid red;
-  position: absolute;
-  z-index: 4;
-  position: absolute;
-  left: 20%;
-  font-family: "Georama";
+  right: 0;
+  width: 100%;
+}
+.community-content .community-text h2 + p {
+  /* border: 1px solid red; */
+  padding-bottom: 20px;
+}
+.community-content .community-text p {
+  /* border: 1px solid red; */
   font-style: normal;
-  font-weight: 700;
-  font-size: 154px;
-  line-height: 97.19%;
-  text-transform: uppercase;
-  color: #ffd318;
-  padding-top: 150px;
-} */
-/* .Earn-section .Earn-content h4 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 113.2%;
+}
+.webthree-logo {
   position: absolute;
-  z-index: 7;
-  position: absolute;
-  left: 30%;
-  font-family: "Georama";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 68px;
-  line-height: 97.19%;
-  padding-top: 300px;
-  text-transform: uppercase;
-  color: #ffffff;
-} */
-/* .Earn-section .Earn-content h5 {
-  border: 1px solid red;
-  position: absolute;
-  z-index: 7;
-  position: absolute;
-  left: 25%;
-  font-family: "Georama";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 97.19%;
-  padding-top: 400px;
-
-  text-transform: uppercase;
-
-  color: #ffd318;
-} */
-/* .Earn-Robo-Logo { */
-/* border: 5px solid red; */
-
-/* position: absolute;
-  bottom: 0;
-  top: 350px;
-  left: 25%;
-  z-index: 5;
-} */
-
-/* Community  */
-/* .Community-Content {
-  background-color: #f5f5f5;
-  color: red;
-} */
+  z-index: 10;
+  right: 150px;
+  bottom: 50px;
+}

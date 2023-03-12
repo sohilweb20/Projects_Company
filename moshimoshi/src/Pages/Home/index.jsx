@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Banner from "./component/Banner";
 import Community from "./component/Community";
 import Earn from "./component/Earn";
+import Organization from "./component/Organization";
 import Services from "./component/Services";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Earn />
       <Community />
+      <Organization />
     </div>
   );
 };

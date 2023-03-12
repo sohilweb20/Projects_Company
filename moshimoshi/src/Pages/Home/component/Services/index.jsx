@@ -33,7 +33,7 @@ const Services = () => {
           <li></li>
         </ul>
       </div>
-      <div className="services service-one">
+      <div className="services service-two">
         <div className="head-section">
           <ClubLogo />
           <span>skyClub</span>

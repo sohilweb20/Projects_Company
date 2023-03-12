@@ -1,5 +1,7 @@
 import Header from "../../components/Header";
 import Banner from "./component/Banner";
+import Community from "./component/Community";
+import Earn from "./component/Earn";
 import Services from "./component/Services";
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
       <Header />
       <Banner />
       <Services />
+      <Earn />
+      <Community />
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Organization = () => {
         <h2>Organization Structure</h2>
         <div className="organization-border-ciecles">
           <div>
-            <p>You -You You-You</p>
+            <p className="headings-boxes">You -You You-You</p>
 
             <div className="inside-boxes">
               <div className="inside-boxes1">
@@ -20,8 +20,9 @@ const Organization = () => {
             </div>
             <p className="investors">Community</p>
           </div>
+
           <div>
-            <p className="investors">INVESTORS</p>
+            <p className="investor">INVESTORS</p>
 
             <div className="inside-boxes">
               <div className="inside-boxes1">
@@ -33,9 +34,10 @@ const Organization = () => {
             </div>
             <p>SEQUOIA + WOODSTOCK </p>
           </div>
+
           <div>
             <p>
-              <p>Team - Contribitors</p>
+              <p className="headings-boxes">Team - Contribitors</p>
             </p>
             <div className="inside-boxes">
               <div className="inside-boxes1">

@@ -2,6 +2,11 @@ import ClubLogo from "../../../../components/ClubLogo";
 import DollorEuro from "../../../../components/DollorEuro";
 import GamesLogo from "../../../../components/GamesLogo";
 import LudoLogo from "../../../../components/LudoLogo";
+import ServiceFive from "../../../../components/ServiceFive";
+import ServiceFour from "../../../../components/ServiceFour";
+import ServiceSix from "../../../../components/ServiceSix";
+import ServiceThree from "../../../../components/Servicethree";
+import ServiceTwo from "../../../../components/Servicetwo";
 import WalletLogo from "../../../../components/WalletLogo";
 
 const Services = () => {
@@ -21,15 +26,16 @@ const Services = () => {
             <span>Use across any app and currency</span>
           </li>
           <li className="feature-three">
-            <DollorEuro />
+            <ServiceTwo />
+
             <span>One place for all your Web3 possessions</span>
           </li>
           <li className="feature-four">
-            <DollorEuro />
+            <ServiceFour />
             <span>Simple and secure</span>
           </li>
           <li className="feature-five">
-            <DollorEuro />
+            <ServiceThree />
             <span>Works everywhere</span>
           </li>
           <li></li>
@@ -53,11 +59,12 @@ const Services = () => {
           <li></li>
           <li></li>
           <li className="feature-five">
-            <GamesLogo />
+            <ServiceFive />
+
             <span>Create eco-friendly NFT artwork and tickets </span>
           </li>
           <li className="feature-four">
-            <LudoLogo />
+            <ServiceSix />
             <span>Offer exclusive content and NFT memberships</span>
           </li>
         </ul>

@@ -10,6 +10,7 @@ const Earn = () => {
           <h3>Tanukibles</h3>
           <h4> Play 2 Earn Game</h4>
           <h5>9999 Tanuki NFTs up for grabs</h5>
+          <button className="button">learn more</button>
         </div>
         <EarcnRightLogo />
 
